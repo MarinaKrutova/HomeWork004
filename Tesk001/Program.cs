@@ -17,10 +17,8 @@ int getNaturalPowerOfNumber(int numberA, int numberB)
 }
 int getNumberFromUser(string message)
 {
-    int result = 1;
     Console.Write(message);
-    result = Convert.ToInt32(Console.ReadLine());
-    return result;
+    return Convert.ToInt32(Console.ReadLine());
 }
 int numberA = getNumberFromUser("Введите натуральное число 1: ");
 int numberB = getNumberFromUser("Введите натуральное число 2: ");
